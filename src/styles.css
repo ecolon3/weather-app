@@ -13,7 +13,7 @@ form {
   margin-top: 55px;
 }
 .card {
-  margin-top: 40px;
+  margin: 40px auto 0 auto;
   max-width: 800px;
 }
 .card-body {
@@ -39,6 +39,10 @@ form {
 }
 .mb-3 {
   display: inline;
+}
+.signoff-link {
+  text-align: center;
+  margin-top: 10px;
 }
 .toggle-degrees {
   color: rgb(25, 25, 155);
