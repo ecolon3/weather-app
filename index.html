@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-6">
+              <div class="all-current-info">
+                <h1>New York</h1>
+                <h2 class="current-temp">75° ☀️</h2>
+                <div class="current-time">8:00am</div>
+                <div class="current-day">Tuesday, April 8</div>
+                <span class="high-temp">High</span> 80°/
+                <span class="low-temp">Low</span>
+                65°
+              </div>
+            </div>
+            <div class="col-6 future-days">
+              <div class="future-day">
+                <div class="day-one day">Wednesday</div>
+                <span class="future-weather">82°/70° </span
+                ><span class="emoji">🌧</span>
+              </div>
+              <div class="future-day">
+                <div class="day-two day">Thursday</div>
+                <span class="future-weather">67°/70° </span>
+                <span class="emoji">🌤</span>
+              </div>
+              <div class="future-day">
+                <div class="day-three day">Friday</div>
+                <span class="future-weather">67°/70° </span>
+                <span class="emoji">🌤</span>
+              </div>
+              <div class="future-day">
+                <div class="day-four day">Saturday</div>
+                <span class="future-weather">69°/72° </span>
+                <span class="emoji">🌤</span>
+              </div>
+              <div class="future-day">
+                <div class="day-five day">Sunday</div>
+                <span class="future-weather">65°/70° </span>
+                <span class="emoji">🌤</span>
+              </div>
+            </div>
+            <div class="col-12 city-search">
+              <form>
+                <div class="row justify-content-center">
+                  <div class="col-9">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="another-city"
+                      placeholder="Another city"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary col-2">
+                    Search
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
