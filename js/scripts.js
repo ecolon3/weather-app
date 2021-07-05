@@ -44,12 +44,12 @@ citySearch.addEventListener("submit", updateCityName);
 
 //Toggle current temperature to Celsius or Fahrenheit
 function changeToC() {
-  let degreesC = document.querySelector("#current-degrees");
-  degreesC.innerHTML = "24";
+  let degrees = document.querySelector("#current-degrees");
+  degrees.innerHTML = "24";
 }
 function changeToF() {
-  let degreesF = document.querySelector("#current-degrees");
-  degreesF.innerHTML = "75";
+  let degrees = document.querySelector("#current-degrees");
+  degrees.innerHTML = "75";
 }
 let degreesC = document.querySelector("#degrees-c");
 degreesC.addEventListener("click", changeToC);
