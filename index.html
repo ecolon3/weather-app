@@ -19,10 +19,13 @@
           <div class="row">
             <div class="col-6">
               <div class="all-current-info">
-                <h1>New York</h1>
-                <h2 class="current-temp">75° ☀️</h2>
-                <div class="current-time">8:00am</div>
-                <div class="current-day">Tuesday, April 8</div>
+                <h1 id="current-city-name">New York</h1>
+                <h2 class="current-temp">
+                  ☀️ <span id="current-degrees">75</span
+                  ><span class="toggle-degrees" id="degrees-f">°F</span> |
+                  <span class="toggle-degrees" id="degrees-c">°C</span>
+                </h2>
+                <div id="current-time-day">8:00 Tuesday</div>
                 <span class="high-temp">High</span> 80°/
                 <span class="low-temp">Low</span>
                 65°
@@ -56,7 +59,7 @@
               </div>
             </div>
             <div class="col-12 city-search">
-              <form>
+              <form id="city-search">
                 <div class="row justify-content-center">
                   <div class="col-9">
                     <input
@@ -76,6 +79,6 @@
         </div>
       </div>
     </div>
-    <script src="js/scripts.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>

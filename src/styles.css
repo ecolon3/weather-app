@@ -40,3 +40,12 @@ form {
 .mb-3 {
   display: inline;
 }
+.toggle-degrees {
+  color: rgb(25, 25, 155);
+  font-weight: light;
+  transition: all 150ms ease-in-out;
+}
+.toggle-degrees:hover {
+  cursor: pointer;
+  color: blue;
+}
