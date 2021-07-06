@@ -11,6 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,8 +23,7 @@
                 <h1 id="current-city-name">New York</h1>
                 <h2 class="current-temp">
                   ☀️ <span id="current-degrees">75</span
-                  ><span class="toggle-degrees" id="degrees-f">°F</span> |
-                  <span class="toggle-degrees" id="degrees-c">°C</span>
+                  ><span id="degrees-f">°F</span>
                 </h2>
                 <div id="current-time-day">8:00 Tuesday</div>
                 <span class="high-temp">High</span> 80°/
@@ -59,6 +59,16 @@
               </div>
             </div>
             <div class="col-12 city-search">
+              <div class="row">
+                <div class="col text-center">
+                  <button
+                    id="gps-button"
+                    class="btn btn-primary location-weather-button"
+                  >
+                    Weather where you are now
+                  </button>
+                </div>
+              </div>
               <form id="city-search">
                 <div class="row justify-content-center">
                   <div class="col-9">
@@ -78,7 +88,12 @@
           </div>
         </div>
       </div>
-      <p class="signoff-link"><a href="https://github.com/ecolon3/weather-app" target="_blank"> Open-source code</a> by E. Colón</p>
+      <p class="signoff-link">
+        <a href="https://github.com/ecolon3/weather-app" target="_blank">
+          Open-source code</a
+        >
+        by E. Colón
+      </p>
     </div>
     <script src="js/scripts.js"></script>
   </body>

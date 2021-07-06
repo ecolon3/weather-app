@@ -4,6 +4,7 @@ button {
 }
 h1 {
   color: rgb(25, 25, 155);
+  text-transform: capitalize;
 }
 form {
   margin-top: 10px;
@@ -37,6 +38,8 @@ form {
   margin-bottom: 10px;
   margin-right: 20px;
 }
+.location-weather-button {
+}
 .mb-3 {
   display: inline;
 }
@@ -45,11 +48,14 @@ form {
   margin-top: 10px;
 }
 .toggle-degrees {
-  color: rgb(25, 25, 155);
-  font-weight: light;
+  color: rgb(80, 80, 197);
   transition: all 150ms ease-in-out;
 }
 .toggle-degrees:hover {
   cursor: pointer;
   color: blue;
+}
+.toggle-degrees-selected {
+    color: rgb(25, 25, 155);
+  transition: all 150ms ease-in-out;
 }
